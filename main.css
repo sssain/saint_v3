@@ -1,5 +1,8 @@
 body {
     background-color: #171717;
+    height:100%;
+    width:99.4%;
+    overflow-x: hidden;
 }
 
 html{
@@ -206,6 +209,9 @@ a{
   font-size: 30px;
 }
 
+#arrowcontact{
+}
+
 .contactme{
   font-family: Poppins;
   margin-left: 4rem;
@@ -230,11 +236,13 @@ a{
 }
 
 .ig{
-  font-size: 30px;
-  margin-left: 4rem;
+  font-size: 40px;
+  display: inline-block;
+  margin-left: 5rem;
   text-decoration: none;
   color: #EDEDED;
   transition: 200ms;
+
 }
 
 .ig:hover{
@@ -242,7 +250,7 @@ a{
 }
 
 .github{
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 1rem;
   text-decoration: none;
   color: #EDEDED;
@@ -256,7 +264,7 @@ a{
 }
 
 .twitter{
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 1rem;
   text-decoration: none;
   color: #EDEDED;
@@ -269,7 +277,7 @@ a{
 }
 
 .youtube{
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 1rem;
   text-decoration: none;
   color: #EDEDED;
@@ -281,6 +289,9 @@ a{
   color: #b1b0b0;
 
 }
+
+
+
 
 /* Media Queries. */
 
@@ -311,7 +322,73 @@ a{
         margin-top: -3rem;
         font-weight: lighter;
       }
+    
+      .aboutmeh{
+        font-size: 1.5rem;
+        margin-left: 3rem;
+      }
+
+      .titlesec2{
+        font-family: Poppins;
+        color: #DA0037;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 3rem;
+        margin-top: 5rem;
+      
+      }
+      
+      .titlesec3{
+        font-family: Poppins;
+        color: #DA0037;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 3rem;
+        margin-top: 5rem;
+      
+      }
+      
+      .mySkills{
+        font-family: Poppins;
+        margin-left: 3rem;
+        font-size:1.5rem;
+        color: #171717;
+      
+      }
+
+      .sec3contact{
+        margin-top: 25rem;
+        font-family: Poppins;
+        margin-left: 3rem;
+        font-size: 1.5rem;
+      }
+
+      .contactme{
+        margin-left: 3rem;
+      }
+      
   }
+
+/* Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #EDEDED;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DA0037;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b9012f;
+}
 
   @media screen and (max-width: 340px){
     .role1{
@@ -338,5 +415,7 @@ a{
         margin-top: -1.9rem;
         font-weight: lighter;
       }
-  
+
+    
   }
+ 
